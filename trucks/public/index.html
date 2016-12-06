@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+     <!--[if lt IE 9]>
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+    <script src="IE8.js">IE7_PNG_SUFFIX=".png";</script>
+    <![endif]-->
+    <!--[if IE]> 
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+    <![endif]-->
+    <title></title>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <!-- Кнопки из шапки -->
+                <button class="green_btn small" id="my-button">Т е х а в т о</button>
+                <button class="basket" id="basket"></button>
+            </div>
+            <!-- Часть шапки где круг -->
+            <div class="header__bottom">
+                <div class="header__bottom_circle">
+                    <div class="header__bottom_trade">
+                        <h1 class="daysSans">ПРОДАЖА 
+                            <span class="h1_first">новых и б/у</span>
+                            <span class="h1_sec">Запчастей</span>
+                        </h1>
+                        <h3 class="regular">для американских и европейских грузовиков</h3>
+                        <div class="trade__car"></div>
+                    </div>
+                </div>
+                <div class="header__bottom_desc">
+                    <h3 class="bold">В наличии и под заказ</h3>
+                    <p class="regular">Стоимость и условия уточняйте у менеджера</p>
+                    <button class="green_btn reg regular" id="my-button1">Уточнить</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Контентная часть -->
+    <main class="main">
+        <!-- Блок ооо тех авто -->
+       <section class="main__quality">
+           <div class="container">
+               <h2 class="regular tech">
+                    <span>ООО “ТЕХ АВТО”</span> <br>
+                    гарантирует качество
+                </h2>
+                <p class="regular">Для всех б/у запчастей наши специалисты проводят предпродажную <br>проверку и выписывают гарантию</p>
+                <button class="green_btn reg regular" id="my-button2">Узнать подробнее</button>
+                <h2 class="regular choose">
+                    <span class="bold">Всегда в наличии</span> <br>
+                    большой выбор запчастей для грузовиков
+                </h2>
+                <div class="main__quality_holder">
+                    <div class="main__quality_american">
+                        <div class="american_img">
+                            <img src="img/american.png" height="129" width="176" alt="">
+                        </div>
+                        <div class="american__col" style="padding-top: 61px">
+                          <img src="img/freightliner.png" height="31" width="148" alt="">
+                        </div>
+                        <div class="american__col" style="padding-top: 30px">
+                          <img src="img/teeth.png" height="90" width="91" alt="">
+                        </div>
+                        <div class="american__col" style="padding-top: 21px">
+                          <img src="img/kw.png" height="117" width="68" alt="">
+                        </div>
+                        <div class="american__col" style="padding-top: 44px">
+                          <img src="img/peterbilt.png" height="61" width="142" alt="">
+                        </div>
+                        <div class="american__col" style="padding-top: 33px">
+                          <img src="img/volvo.png" height="88" width="92" alt="">
+                        </div>
+                        <div class="american__col" style="padding-top: 21px">
+                          <img src="img/mack.png" height="97" width="146" alt="">
+                        </div>
+                        <div class="american__col" style="padding-top: 52px">
+                          <img src="img/w_star.png" height="50" width="111" alt="">
+                        </div>
+                        <div class="american__col" style="padding-top: 57px">
+                          <img src="img/sterling.png" height="47" width="129" alt="">
+                        </div>
+                    </div>
+                    <div class="main__quality_europe">
+                        <div class="europe_img">
+                            <img src="img/europe.png" height="129" width="176" alt="">
+                        </div>
+                        <div class="europe__col" style="padding-top: 32px">
+                          <img src="img/mers.png" height="91" width="91" alt="" >
+                        </div>
+                        <div class="europe__col" style="padding-top: 32px">
+                          <img src="img/renault.png" height="93" width="74" alt="">
+                        </div>
+                        <div class="europe__col" style="padding-top: 33px">
+                          <img src="img/volvo.png" height="88" width="92" alt="">
+                        </div>
+                        <div class="europe__col" style="padding-top: 63px">
+                          <img src="img/daf.jpg" alt="">
+                        </div>
+                        <div class="europe__col" style="padding-top: 65px">
+                          <img src="img/inveco.png" height="30" width="126" alt="">
+                        </div>
+                        <div class="europe__col" style="padding-top: 35px">
+                          <img src="img/man.png" height="71" width="127" alt="">
+                        </div>
+                        <div class="europe__col" style="padding-top: 30px">
+                          <img src="img/scania.png" height="102" width="108" alt="">
+                        </div>
+                        <div class="europe__col" style="padding-top: 31px">
+                          <img src="img/sisu.png" height="95" width="95" alt="">
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </section>
+       <!-- Блок всегда большой выбор -->
+       <section class="main__choise">
+           <div class="container">
+               <h3 class="bold choise_item">Всегда большой выбор <br>
+                    <span class="regular"> запасных частей для моторов</span>
+               </h3>
+               <section class="choise__details">
+                   <div class="details__col_left">
+                       <nav class="left__nav">
+                           <ul>
+                               <li>Cum “11”, “14”</li>
+                               <li>“15” ISX</li>
+                               <li>CAT “12”, “13”, “15”</li>
+                               <li>MAN</li>
+                               <li>MERSEDES</li>
+                               <li>RENAULT</li>
+                           </ul>
+                       </nav>
+                   </div>
+                   <div class="details__col_right">
+                       <nav class="right__nav_top">
+                           <ul>
+                               <li>Detroit Diesel DD 
+                                        “12,7”, “14”, “15”
+                                </li>
+                               <li>DAF</li>
+                               <li>CAT “12”, “13”, “15”</li>
+                           </ul>
+                       </nav>
+                       <nav class="right__nav_bottom">
+                           <ul>
+                               <li>SCANIA</li>
+                               <li>VOLVO</li>
+                           </ul>
+                       </nav>
+                   </div>    
+               </section>
+           </div>
+       </section>
+       <!-- Блок скоростная доставка -->
+       <section class="main__deliver">
+           <div class="container">
+                <h2 class="deliver__title bold">Скоростная доставка <br>
+                    <span class="regular">любых новых и б/у запчастей и агрегатов <br>
+                        из Европпы и США по надёжным каналам
+                    </span> 
+                </h2>
+                <div class="deliver__holder">
+                    <div class="deliver__american">
+                        <div class="am_img">
+                            <img src="img/american_img.png" height="83" width="111" alt="">
+                        </div>
+                        <h3 class="bold am_title">7-12 <br>
+                            <span class="regular">дней</span>
+                        </h3>
+                    </div>
+                    <div class="deliver__europe">
+                        <div class="eu_img">
+                            <img src="img/europe_img.png" height="82" width="110" alt="">
+                        </div>
+                        <h3 class="bold eu_title">2-3 <br>
+                            <span class="regular">дня</span>
+                        </h3>
+                    </div>
+                </div>
+                <h3 class="bold deliver_bottom">Приём заказов <br>
+                    <span class="regular">через сайт круглосуточно</span>
+                </h3>
+                <button class="green_btn reg" id="my-button3">Сделать заказ</button>
+           </div>
+       </section>
+       <!-- Блок с картой -->
+       <section class="main__map">
+           <div class="container">
+               <h2 class="map__title bold">Мы работаем по всей России</h2>
+               <h4 class="map__back regular">Вы можете забрать заказ самостоятельно <br>
+                со склада в Санкт-Петербурге</h4>
+                <h4 class="map__or bold">или</h4>
+                <h4 class="map__deliver bold">заказать доставку в срок через транспортные <br>
+                    компании в любой регион</h4>
+                <button class="green_btn reg" id="my-button4">Уточнить стоимость</button>
+           </div>
+       </section>
+       <!-- Схема работы -->
+        <section class="main__scheme">
+            <div class="container">
+                <h2 class="scheme_title bold">Схема работы</h2>
+                <div class="scheme__holder">
+                  <div class="field">
+                    <div class="scheme__col">
+                        <div class="scheme__col_round" style="padding: 54px 0 0 18px">
+                            <img src="img/note.png" height="52" width="52" alt="">
+                        </div>
+                        <p class="first_t regular">Вы оставляете <br>заявку</p>
+                        <button class="red_btn" id="my-button5">Оставить заявку</button>
+                    </div>
+                    <div class="scheme__col">
+                        <div class="scheme__col_round" style="padding: 37px 0 0 11px">
+                            <img src="img/mobile.png" height="75" width="46" alt="">
+                        </div>
+                        <p class="second_t regular">наш менеджер <br>
+                            проверяет наличе <br>
+                            запчасти <br>
+                            <span>и сообщает стоимость</span>
+                        </p>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <div class="scheme__col s_r">
+                       <div class="scheme__col_round" style="padding-top:58px">
+                           <img src="img/money.png" height="42" width="54" alt="">
+                       </div>
+                       <p class="second_t regular">оплату заказа<br>
+                            <span>при наличии запчасти.</span><br>
+                            ПОД ЗАКАЗ <br>
+                            <span>70% предоплата</span>
+                        </p>
+                    </div>
+                    <div class="scheme__col last">
+                       <div class="scheme__col_round" style="padding-top:55px">
+                           <img src="img/car.png" height="47" width="78" alt="">
+                       </div>
+                       <p class="second_t regular">Получение на <br>
+                        складе или заказ <br>
+                        доставки</p>
+                    </div>
+                  </div>
+               </div>
+           </div>
+       </section>
+       <!-- Блок с галереей -->
+       <section class="main__develop">
+           <div class="container">
+               <h2 class="develop__title regular">Прямо сейчас в разборке</h2>
+               <!-- Галерея -->
+               <div class="multiple-items develop__gallery">
+                    <div>
+                        <img src="img/IMG_3244.JPG" alt="">
+                    </div>
+                    <div>
+                        <img src="img/IMG_3245.JPG" alt="">
+                    </div>
+                    <div>
+                        <img src="img/IMG_3246.JPG" alt="">
+                    </div>
+                    <div>
+                        <img src="img/IMG_3247.JPG" alt="">
+                    </div>
+                    <div>
+                        <img src="img/IMG_3249.JPG" alt="">
+                    </div>
+                    <div>
+                        <img src="img/IMG_3250.JPG" alt="">
+                    </div>
+                    <div>
+                        <img src="img/IMG_3254.JPG" alt="">
+                    </div>
+                    <div>
+                        <img src="img/IMG_3255.JPG" alt="">
+                    </div>
+                    <div>
+                        <img src="img/IMG_3256.JPG" alt="">
+                    </div>
+                    <div>
+                        <img src="img/IMG_3260.JPG" alt="">
+                    </div>
+                </div>
+           </div>
+       </section>
+    </main>
+    <!-- Подвал сайта -->
+    <footer class="footer">
+        <div class="container">
+            <h2 class="daysSans">Выкупаем грузовки <br>
+                <span>на запчасти</span>
+            </h2>
+            <p class="regular">Выкупаем по хорошей цене грузовики <br>производства: Европпа, США. Битые после <br>аварии, неисправные или требующие утилизации.</p>
+            <button class="green_btn big" id="my-button6">Предложить автомобиль</button>
+        </div>
+    </footer>
+</body>
+<!-- Модальное окно -->
+<div id="element_to_pop_up">
+    <div class="element__form">
+        <form action="">
+            <p>Введите контакты, <br>
+            что бы узнать больше</p>
+            <input type="hidden" name="project_name" value="форма с сайта грузовики">
+            <input type="hidden" name="admin_email" value="order@melior.biz">
+            <input type="hidden" name="form_subject" value="Данные клиента">
+            <input type="text" name="name" placeholder="Ваше имя">
+            <input type="text" name="phone" placeholder="Телефон для связи">
+            <input type="submit" value="перезвоните мне!">
+        </form>
+    </div>
+    <div class="element__contacts">
+        <p class="regular">Контакты</p>
+        <nav class="element__nav">
+            <ul>
+                <li>8-900-000-00-00 <br>
+                    8-900-000-00-00
+                </li>
+                <li>123456789 <br>
+                    123456789
+                </li>
+                <li>имя</li>
+                <li>имя@mail.ru</li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script>
+    $('.multiple-items').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3
+    });
+</script>
+<script src="js/bopup.js"></script>
+<script>
+    (function($) {
+        $(function() {
+            $('#my-button , #my-button1, #my-button2, #my-button3, #my-button4, #my-button5, #my-button6, #basket').bind('click', function(e) {
+                e.preventDefault();
+                $('#element_to_pop_up').bPopup({
+                    fadeSpeed: 'slow', 
+                    followSpeed: 1500,
+                    modalColor: '#348a7f',
+                    speed: 650,
+                    transition: 'slideIn',
+                    transitionClose: 'slideBack'
+                });
+            });
+         });
+     })(jQuery);
+</script>
+<script src="js/script.js"></script>
+</html> 
